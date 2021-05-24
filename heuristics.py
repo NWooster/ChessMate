@@ -18,7 +18,7 @@ def get_piece_value(piece):
     elif piece.piece_type == 5:
         return 9.0 * color_factor
     elif piece.piece_type == 6:
-        return 0 * color_factor
+        return 10 * color_factor
 
 def materials(board,weight):
         scores = 0.0
